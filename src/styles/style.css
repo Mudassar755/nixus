@@ -4,6 +4,25 @@ body {
 .btn-rounded {
   border-radius: 48px !important;
 }
+/* How it Works Section Button */
+.btn-rounded-1 {
+  text-align: center;
+  align-items: center;
+  border-radius: 48px !important;
+  position: relative;
+  /* left: 36.5rem; */
+  bottom: -20px;
+  padding: 10px 20px;
+}
+.btn-rounded-2 {
+  text-align: center;
+  align-items: center;
+  border-radius: 48px !important;
+  position: relative;
+  left: 1rem;
+  bottom: -20px;
+  padding: 10px 20px;
+}
 .app-bar {
   background-color: #070014 !important;
 }
@@ -17,6 +36,31 @@ body {
   line-height: 88px;
   letter-spacing: 0.02em;
 
+  color: #ffffff;
+}
+.sub-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 76px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.sub-heading-1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 76px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+.medium-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 .small-heading {
@@ -46,14 +90,6 @@ body {
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.8);
 }
-.sub-heading {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 52px;
-  line-height: 76px;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
 .primary-text {
   font-style: normal;
   font-weight: 300;
@@ -70,13 +106,8 @@ body {
   background: #1a1a25;
   border-radius: 12px;
 }
-/* .header-btn { */
-/* background: #070014 !important;
-  backdrop-filter: blur(30px);
-  color: #fff;
-  border: 1px solid;
-
-  border-image-source: linear-gradient(
+.gradient-text {
+  background: -webkit-linear-gradient(
     220.97deg,
     #6415ff 18.89%,
     #f6808a 41.94%,
@@ -84,36 +115,22 @@ body {
     #14e0ff 81.9%
   );
 
-  background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
-  box-sizing: border-box;
-  display: block;
-  letter-spacing: 1px;
-  margin: 0 auto;
-  padding: 4px; */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* No More Typing Image Adjusting */
+/* .bg-dark-grey.box-size {
+  height: 600px;
+} */
 
-/* cursor: pointer;
-  display: inline-block;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 10px;
-  color: white;
-  border:2px solid transparent;
-  border-radius:10px;
-  border-right-color:#743ad5;
-  border-left-color:#d53a9d;
-  background:
-  linear-gradient(to left,
-  rgb(116, 58, 213) 0%, rgb(186, 58, 143) 70% ,
-  transparent 70%,  transparent 85%, 
-  rgb(201, 58, 128) 85%, rgb(213, 58, 157) 100%) top/100% 2px,
-linear-gradient(to left, #743ad5 0%, #d53a9d 100%) bottom/100% 2px;
-    background-repeat:no-repeat; */
-/* } */
-/* linear-gradient(to left,
-  rgb(116, 58, 213) 0%, rgb(186, 58, 143) 70% ,
-  transparent 70%,  transparent 85%, 
-  rgb(201, 58, 128) 85%, rgb(213, 58, 157) 100%) top/100% 2px,
-linear-gradient(to left, #743ad5 0%, #d53a9d 100%) bottom/100% 2px; */
+/* How it Works Section Text Adjusting */
+/* .bg-dark-grey.p-1 {
+  height: 500px;
+  width: 240px;
+  padding: 10px;
+
+} */
 
 .header-btn {
   border: none;
@@ -123,7 +140,7 @@ linear-gradient(to left, #743ad5 0%, #d53a9d 100%) bottom/100% 2px; */
   position: relative;
   z-index: 1;
   font-size: 14px;
-  padding: 17px 35px;
+  padding: 10px 25px;
   font-weight: 100;
   text-transform: uppercase;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -143,8 +160,14 @@ linear-gradient(to left, #743ad5 0%, #d53a9d 100%) bottom/100% 2px; */
   bottom: 0;
   right: 0;
   z-index: -2;
-  background: #503b9a;
-  background: -moz-linear-gradient(left, #503b9a 0%, #269cc1 100%);
+  background: #6415ff;
+  background: -moz-linear-gradient(
+    220.97deg,
+    #6415ff 18.89%,
+    #f6808a 41.94%,
+    #fb96fb 52.39%,
+    #14e0ff 81.9%
+  );
   background: -webkit-gradient(
     linear,
     left top,
@@ -152,10 +175,34 @@ linear-gradient(to left, #743ad5 0%, #d53a9d 100%) bottom/100% 2px; */
     color-stop(0%, #503b9a),
     color-stop(100%, #269cc1)
   );
-  background: -webkit-linear-gradient(left, #503b9a 0%, #269cc1 100%);
-  background: -o-linear-gradient(left, #503b9a 0%, #269cc1 100%);
-  background: -ms-linear-gradient(left, #503b9a 0%, #269cc1 100%);
-  background: linear-gradient(to right, #503b9a 0%, #269cc1 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #6415ff 18.89%,
+    #f6808a 41.94%,
+    #fb96fb 52.39%,
+    #14e0ff 81.9%
+  );
+  background: -o-linear-gradient(
+    left,
+    #6415ff 18.89%,
+    #f6808a 41.94%,
+    #fb96fb 52.39%,
+    #14e0ff 81.9%
+  );
+  background: -ms-linear-gradient(
+    left,
+    #6415ff 18.89%,
+    #f6808a 41.94%,
+    #fb96fb 52.39%,
+    #14e0ff 81.9%
+  );
+  background: linear-gradient(
+    to right,
+    #6415ff 18.89%,
+    #f6808a 41.94%,
+    #fb96fb 52.39%,
+    #14e0ff 81.9%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#503b9a', endColorstr='#269cc1',GradientType=1 );
 }
 
@@ -171,7 +218,7 @@ linear-gradient(to left, #743ad5 0%, #d53a9d 100%) bottom/100% 2px; */
 }
 
 .header-btn:hover:after {
-  opacity: 0;
+  opacity: 0.8;
 }
 .hero-section {
   background-image: url(/public/assets/backgrounds/hero-bg.png);
@@ -184,26 +231,14 @@ linear-gradient(to left, #743ad5 0%, #d53a9d 100%) bottom/100% 2px; */
 }
 .hero-heading {
 }
-.hero-heading span {
-  /* font-size: 72px; */
-  background: -webkit-linear-gradient(
-    220.97deg,
-    #6415ff 18.89%,
-    #f6808a 41.94%,
-    #fb96fb 52.39%,
-    #14e0ff 81.9%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  /* background: linear-gradient(220.97deg, #6415FF 18.89%, #F6808A 41.94%, #FB96FB 52.39%, #14E0FF 81.9%); */
-}
+
 .hero-text {
   padding-left: 50px;
 }
 .hero-btn {
   /* padding:px 30px !important; */
 }
-.ai-fields {
+.ai-fields-row {
   padding: 50px 0 !important;
   margin: 20px 0 !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
@@ -223,6 +258,18 @@ linear-gradient(to left, #743ad5 0%, #d53a9d 100%) bottom/100% 2px; */
   background: #1a1a25;
   border-radius: 16px;
   padding: 10px;
+  margin-right: 20px;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* New Life And Get It Right Sections Changing */
+.heading-icon-flat {
+  background: #1a1a25;
+  border-radius: 16px;
+  padding: 15px;
   margin-right: 20px;
 }
 
@@ -249,4 +296,213 @@ linear-gradient(to left, #743ad5 0%, #d53a9d 100%) bottom/100% 2px; */
   display: flex;
   align-items: center;
   color: #ffffff;
+}
+
+/* New LIfe Section */
+.new-section {
+  padding-top: 50px;
+}
+.new-section.text-section {
+  background-image: url("/public/assets/backgrounds/image-from-rawpixel-id-3280494-original\ 3.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.newlife-image {
+  width: 357px;
+  height: 520px;
+}
+.newlife-image-1 {
+  height: 528;
+  padding-top: 30px;
+}
+/* Get It Right Section */
+.backgroung-img {
+  width: 1245px;
+  height: 520px;
+}
+
+/* Catch Ya Section */
+.animated-image {
+  width: 360px;
+  height: 360px;
+}
+
+/* No More Typing Section */
+.text-image {
+  height: 350px;
+  width: 350px;
+}
+
+.text-image-1 {
+  height: 400px;
+  width: 300px;
+}
+
+/* How It Works Section */
+.image-section {
+  height: 200px;
+  width: 170px;
+  padding-left: 15px;
+}
+.image-section h3 {
+  padding-top: 10px;
+}
+.how-it-work .text-container {
+  background-image: url("/public/assets/backgrounds/Union.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #070014 !important;
+  height: 800px;
+}
+.new-section.back-image {
+  background-image: url("/public/assets/backgrounds/Union.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #070014 !important;
+  height: 300px;
+}
+
+.mask-group {
+  height: 400px;
+  width: 600px;
+  border-radius: 10px;
+  position: relative;
+  left: -45px;
+  top: 1px;
+}
+.work-section {
+  background-image: url("/public/assets/backgrounds/why-choose-desktop-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 5rem 0;
+  display: flex;
+  align-items: center;
+}
+.guide-step:hover{
+  background: #1a1a25;
+  border-radius: 12px;
+}
+.mask-layer {
+  background-color: #070014;
+  /* width: 1130px; */
+  /* height: 400px; */
+  position: relative;
+  /* left: 11.5rem; */
+  /* top: 10rem; */
+  /* align-content: center; */
+  /* align-self: center; */
+  border-radius: 10px;
+}
+
+.footer-links a {
+  text-decoration: none !important;
+  margin-top: 1rem;
+}
+.footer-links a:hover {
+  text-decoration: none !important;
+  color: #ffffff !important;
+}
+
+.mob-ai-fields {
+  display: flex;
+  overflow-x: scroll;
+  min-height: 200px;
+}
+.mob-fields {
+  display: flex;
+  overflow-x: scroll;
+}
+.mob-fields > div {
+  flex: 0 0 300px;
+}
+
+.features-carousel .carousel-indicators{
+top: 0px !important;
+}
+.features-carousel .carousel-indicators button{
+width: 30% !important;
+}
+.features-carousel .carousel-control-next, .features-carousel .carousel-control-prev{
+  display: none;
+}
+/* .our-ai-fields::-webkit-scrollbar {
+  width: 1px !important;
+}
+
+
+.our-ai-fields::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 5px;
+}
+
+.our-ai-fields::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+} */
+
+.mobile-row{
+  display: none !important;
+}
+@media screen and (max-width: 768px) {
+  .how-it-work .text-container {
+    height: auto;
+
+  }
+  .work-section {
+    height: auto;
+    padding: 3rem 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .desktop-row{
+    display: none !important;
+  }
+  .mobile-row{
+    display: flex !important;
+  }
+  .main-heading {
+    text-align: center;
+    font-size: 36px;
+    line-height: 60px;
+    margin-bottom: 3rem;
+  }
+
+  .sub-heading {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px; 
+   letter-spacing: 0.02em;
+  }
+
+  .heading-description{
+    display: none !important;
+  }
+  .work-section {
+    background-image: url("/public/assets/backgrounds/why-choose-mobile-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mask-layer {
+    background-color: #070014;
+
+    position: relative;
+  
+    border-radius: 10px;
+  }
+  .ai-field{
+    flex: 0 0 160px;
+  }
 }

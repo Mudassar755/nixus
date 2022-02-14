@@ -6,67 +6,100 @@ const HeroSection = () => {
         <section className='hero-section'>
             <Container>
                 <Row className='hero-section-row'>
-                    <Col>
+                    <Col lg={6} md={6} sm={12}>
                         <div className='hero-heading-box'>
                             <h1 className='hero-heading main-heading'>The new standard in <br />
-                                <span>Artifical intelligent.</span>
+                                <span className='gradient-text'>Artifical intelligent.</span>
                             </h1>
 
                         </div>
                     </Col>
-                    <Col>
+                    <Col lg={6} md={6} sm={12}>
                         <div className='hero-text primary-text'>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra euismod lectus interdum in
                                 varius amet interdum. Nullam tellus enim. dolor sit amet, consecte.</p>
-                            <Button variant='light' className='btn-rounded hero-btn px-4'>Get Started</Button>
+                            <Button variant='light' className='btn-rounded hero-btn px-5 py-2'>Get Started</Button>
                         </div>
                     </Col>
                 </Row>
 
-                <Row className='ai-fields'>
-                    <h3 className='x-small-heading'>Our fields of AI</h3>
+                <Row className='ai-fields-row desktop-row' id="ai-fields">
+                    <h3 className='x-small-heading'>Our Fields of AI</h3>
                     <Col>
                         <div className='ai-field'>
-                            <img src="/assets/icons/field1.png" />
-                            <span className='small-text'>Get It Right</span>
-                        </div>
-                    </Col>
-                    <Col>
-                    <div className='ai-field'>
-                            <img src="/assets/icons/field2.png" />
+                            <img src="/assets/icons/field1.png" alt='' />
                             <span className='small-text'>Get It Right</span>
                         </div>
                     </Col>
                     <Col>
                         <div className='ai-field'>
-                            <img src="/assets/icons/field3.png" />
+                            <img src="/assets/icons/field2.png" alt='' />
                             <span className='small-text'>Get It Right</span>
                         </div>
                     </Col>
                     <Col>
                         <div className='ai-field'>
-                            <img src="/assets/icons/field4.png" />
+                            <img src="/assets/icons/field3.png" alt='' />
                             <span className='small-text'>Get It Right</span>
                         </div>
                     </Col>
                     <Col>
                         <div className='ai-field'>
-                            <img src="/assets/icons/field5.png" />
+                            <img src="/assets/icons/field4.png" alt='' />
                             <span className='small-text'>Get It Right</span>
                         </div>
                     </Col>
                     <Col>
                         <div className='ai-field'>
-                            <img src="/assets/icons/field-shape.png" />
+                            <img src="/assets/icons/field5.png" alt='' />
                             <span className='small-text'>Get It Right</span>
                         </div>
                     </Col>
                     <Col>
                         <div className='ai-field'>
-                            <img src="/assets/icons/field7.png" />
+                            <img src="/assets/icons/field-shape.png" alt='' />
                             <span className='small-text'>Get It Right</span>
                         </div>
                     </Col>
+                    <Col>
+                        <div className='ai-field'>
+                            <img src="/assets/icons/field7.png" alt='' />
+                            <span className='small-text'>Get It Right</span>
+                        </div>
+                    </Col>
+                </Row>
+                <Row className='mobile-row'>
+
+                    <div className='d-flex mob-ai-fields'>
+                        <div className='ai-field'>
+                            <img src="/assets/icons/field7.png" alt='' />
+                            <span className='small-text'>Get It Right</span>
+                        </div>
+                        <div className='ai-field'>
+                            <img src="/assets/icons/field7.png" alt='' />
+                            <span className='small-text'>Get It Right</span>
+                        </div>
+                        <div className='ai-field'>
+                            <img src="/assets/icons/field7.png" alt='' />
+                            <span className='small-text'>Get It Right</span>
+                        </div>
+                        <div className='ai-field'>
+                            <img src="/assets/icons/field7.png" alt='' />
+                            <span className='small-text'>Get It Right</span>
+                        </div>
+                        <div className='ai-field'>
+                            <img src="/assets/icons/field7.png" alt='' />
+                            <span className='small-text'>Get It Right</span>
+                        </div>
+                        <div className='ai-field'>
+                            <img src="/assets/icons/field7.png" alt='' />
+                            <span className='small-text'>Get It Right</span>
+                        </div>
+                        <div className='ai-field'>
+                            <img src="/assets/icons/field7.png" alt='' />
+                            <span className='small-text'>Get It Right</span>
+                        </div>
+                    </div>
                 </Row>
             </Container>
         </section>
