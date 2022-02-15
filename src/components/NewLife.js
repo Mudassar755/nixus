@@ -6,7 +6,7 @@ const NewLife = () => {
         <section className='new-section'>
             <Container>
                 <div>
-                    <div className='d-flex mb-4'>
+                    <div className='d-flex align-items-center mb-4'>
                         <span className='heading-icon'><img src="/assets/icons/FlatCylinder3.png" alt='' /></span>
                         <h2 className='sub-heading'>Giving a New Life</h2>
                     </div>
@@ -43,7 +43,7 @@ const NewLife = () => {
                     </Row>
 
                     <Row className='mobile-row'>
-                        <Carousel className='features-carousel'>
+                        <Carousel className='features-carousel' interval={null}>
                             <Carousel.Item>
                                 <Col>
                                     <div className='bg-dark-grey p-4'>

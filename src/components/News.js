@@ -39,7 +39,7 @@ const News = () => {
                     </Col>
                 </Row>
                 <Row className='border-top mobile-row'>
-                    <Carousel className='features-carousel'>
+                    <Carousel className='features-carousel' interval={null}>
                         <Carousel.Item>
                             <Col lg={4} md={6} sm={12} className='border-end'>
                                 <div className='p-4'>

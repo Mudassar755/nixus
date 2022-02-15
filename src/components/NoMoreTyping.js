@@ -64,7 +64,7 @@ const NoMoreTyping = () => {
         </Row>
 
         <Row className='mobile-row'>
-          <Carousel className='features-carousel'>
+          <Carousel className='features-carousel' interval={null}>
             <Carousel.Item>
               <Col>
                 <div className="bg-dark-grey box-size p-4">
