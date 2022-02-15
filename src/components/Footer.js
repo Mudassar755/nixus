@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg={3} md={3} sm={12} xs={12} className='mt-5'>
-            <div><img src={'/assets/icons/footer-logo.png'} /></div>
+            <div><img src={'/assets/icons/footer-logo.png'} alt="footer-logo" /></div>
           </Col>
           <Col lg={3} md={3} sm={6} xs={6} className='mt-5'>
             <h3 className='small-heading'>
