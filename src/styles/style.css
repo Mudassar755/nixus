@@ -505,7 +505,8 @@ width: 30% !important;
   }
   .how-it-work .text-container {
     height: auto;
-    padding: 3rem 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
   .work-section {
     background-image: url("/public/assets/backgrounds/why-choose-mobile-bg.png");
