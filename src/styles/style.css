@@ -1,6 +1,9 @@
 body {
   background-color: #070014 !important;
 }
+a{
+  text-decoration: none !important;
+}
 .btn-rounded {
   border-radius: 48px !important;
 }

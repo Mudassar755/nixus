@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import { Container, Row, Col, Carousel } from 'react-bootstrap'
+import { Link } from 'react-router-dom';
 
 const Blogs = () => {
     let [isMobile, setIsMobile] = useState(false);
@@ -42,6 +43,7 @@ const Blogs = () => {
 
                 <Row className='desktop-row'>
                     <Col lg={4} md={6} sm={12} className='border-end border-top mt-5'>
+                        <Link to="/blogs/worried-about-ai-ethics">
                         <div className='p-4'>
                             <h3 className='medium-heading'>Worried about AI ethics? Worry about developers’ ethics first</h3>
                             <p className='primary-text mb-5'>
@@ -49,8 +51,10 @@ const Blogs = () => {
                             </p>
                             <img src={'/assets/images/ai-ethics.png'} className='w-100' alt="ai-ethics" />
                         </div>
+                        </Link>
                     </Col>
                     <Col lg={4} md={6} sm={12} className='border-end border-top mt-5'>
+                    <Link to="/blogs/worried-about-ai-ethics">
                         <div className='p-4'>
                             <h3 className='medium-heading'>EU lawmakers agree data reuse rules fosterAI</h3>
                             <p className='primary-text mb-5'>
@@ -58,8 +62,10 @@ const Blogs = () => {
                             </p>
                             <img src={'/assets/images/foster-ai.png'} className='w-100' alt="foster-ai" />
                         </div>
+                        </Link>
                     </Col>
                     <Col lg={4} md={6} sm={12} className='border-top mt-5'>
+                    <Link to="/blogs/worried-about-ai-ethics">
                         <div className='p-4'>
                             <h3 className='medium-heading'>“Electric Generation”: a podcast about the transformative power of electrification</h3>
                             <p className='primary-text mb-5'>
@@ -67,6 +73,7 @@ const Blogs = () => {
                             </p>
                             <img src={'/assets/images/electric-generation.png'} className='w-100' alt="instance-segment" />
                         </div>
+                        </Link>
                     </Col>
                     <Col lg={4} md={6} sm={12} className='border-end border-top mt-5'>
                         <div className='p-4'>
@@ -127,6 +134,7 @@ const Blogs = () => {
                     <Carousel className='features-carousel' interval={null}>
                         <Carousel.Item>
                             <Col lg={4} md={6} sm={12} className='pt-5 border-end border-top'>
+                            <Link to="/blogs/worried-about-ai-ethics">
                                 <div className='p-4'>
                                     <h3 className='medium-heading'>Worried about AI ethics? Worry about developers’ ethics first</h3>
                                     <p className='primary-text mb-5'>
@@ -134,10 +142,12 @@ const Blogs = () => {
                                     </p>
                                     <img src={'/assets/images/ai-ethics.png'} className='w-100' alt="ai-ethics" />
                                 </div>
+                                </Link>
                             </Col>
                         </Carousel.Item>
                         <Carousel.Item>
                             <Col lg={4} md={6} sm={12} className=' pt-5 border-end border-top'>
+                            <Link to="/blogs/worried-about-ai-ethics">
                                 <div className='p-4'>
                                     <h3 className='medium-heading'>EU lawmakers agree data reuse rules fosterAI</h3>
                                     <p className='primary-text mb-5'>
@@ -145,10 +155,12 @@ const Blogs = () => {
                                     </p>
                                     <img src={'/assets/images/foster-ai.png'} className='w-100' alt="foster-ai" />
                                 </div>
+                                </Link>
                             </Col>
                         </Carousel.Item>
                         <Carousel.Item>
                             <Col lg={4} md={6} sm={12} className='pt-5 border-top'>
+                            <Link to="/blogs/worried-about-ai-ethics">
                                 <div className='p-4'>
                                     <h3 className='medium-heading'>“Electric Generation”: a podcast about the transformative power of electrification</h3>
                                     <p className='primary-text mb-5'>
@@ -156,6 +168,7 @@ const Blogs = () => {
                                     </p>
                                     <img src={'/assets/images/electric-generation.png'} className='w-100' alt="instance-segment" />
                                 </div>
+                                </Link>
                             </Col>
                         </Carousel.Item>
                     </Carousel>
