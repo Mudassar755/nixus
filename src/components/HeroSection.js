@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
+import FormModal from './FormModal';
 
 const HeroSection = () => {
+    const [showModal, setShowModal] = useState(false);
     return (
         <section className='hero-section'>
             <Container>
@@ -18,14 +20,14 @@ const HeroSection = () => {
                         <div className='hero-text primary-text'>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra euismod lectus interdum in
                                 varius amet interdum. Nullam tellus enim. dolor sit amet, consecte.</p>
-                            <Button variant='light' className='btn-rounded hero-btn px-5 py-2'>Get Started</Button>
+                            <Button variant='light' className='btn-rounded hero-btn px-5 py-2' onClick={() => setShowModal(true)}>Get Started</Button>
                         </div>
                     </Col>
                 </Row>
 
                 <Row className='ai-fields-row desktop-row' id="ai-fields">
                     <h3 className='x-small-heading'>Our Fields of AI</h3>
-                    <Col>
+                    <Col className='ai-field-col'>
                         <div className='ai-field'>
                             <img src="/assets/icons/field1.png" alt='' />
                             <span className='small-text'>Get It Right</span>
@@ -102,6 +104,8 @@ const HeroSection = () => {
                     </div>
                 </Row>
             </Container>
+
+            <FormModal show={showModal} setShow={setShowModal} />
         </section>
     )
 }

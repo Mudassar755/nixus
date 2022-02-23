@@ -113,7 +113,7 @@ const KnowText = () => {
           <Carousel className='features-carousel' interval={null}>
             <Carousel.Item>
               <Col>
-                <div className="bg-dark-grey p-4">
+                <div className="bg-dark-grey p-4 pt-5">
                   <h3 className="small-heading gradient-text">
                     01. Name Entity Recognition
                   </h3>
@@ -127,7 +127,7 @@ const KnowText = () => {
             </Carousel.Item>
             <Carousel.Item>
               <Col>
-                <div className="bg-dark-grey p-4 h-100">
+                <div className="bg-dark-grey p-4 pt-5 h-100">
                   <h3 className="small-heading gradient-text">
                     02. Semantic Search
                   </h3>
@@ -145,7 +145,7 @@ const KnowText = () => {
             </Carousel.Item>
             <Carousel.Item>
               <Col>
-                <div className="bg-dark-grey box-size p-4">
+                <div className="bg-dark-grey box-size p-4 pt-5">
                   <h3 className="small-heading gradient-text">
                     03. Semantic Analysis
                   </h3>
@@ -163,7 +163,7 @@ const KnowText = () => {
             </Carousel.Item>
             <Carousel.Item>
               <Col>
-                <div className="bg-dark-grey box-size p-4">
+                <div className="bg-dark-grey box-size p-4 pt-5">
                   <h3 className="small-heading gradient-text">
                     04. Text classification
                   </h3>
@@ -181,7 +181,7 @@ const KnowText = () => {
             </Carousel.Item>
             <Carousel.Item>
               <Col>
-                <div className="bg-dark-grey box-size p-4">
+                <div className="bg-dark-grey box-size p-4 pt-5">
                   <h3 className="small-heading gradient-text">
                     05. Text Extraction
                   </h3>
@@ -199,7 +199,7 @@ const KnowText = () => {
             </Carousel.Item>
             <Carousel.Item>
               <Col>
-                <div className='bg-dark-grey p-4'>
+                <div className='bg-dark-grey p-4 pt-5'>
                   <h3 className='small-heading gradient-text'>06. Aspect Mining</h3>
                   <p className='primary-text'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra euismod lectus interdum in varius amet.
@@ -210,7 +210,7 @@ const KnowText = () => {
             </Carousel.Item>
             <Carousel.Item>
               <Col>
-                <div className='bg-dark-grey p-4'>
+                <div className='bg-dark-grey p-4 pt-5'>
                   <h3 className='small-heading gradient-text'>07. Topic Modeling</h3>
                   <p className='primary-text'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra euismod lectus interdum in varius amet.

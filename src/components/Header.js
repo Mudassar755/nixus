@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Navbar, Nav, Container, } from 'react-bootstrap';
 import { Link } from 'react-scroll';
+import FormModal from './FormModal';
 
 const Header = () => {
+    const [showModal, setShowModal] = useState(false);
     return (
+        <>
         <Navbar collapseOnSelect expand="lg" variant="dark" className='app-bar'>
             <Container>
-                <Navbar.Brand href="#home"><img src="/assets/icons/header-logo.svg" alt="header logo" /></Navbar.Brand>
+                <Navbar.Brand href="/"><img src="/assets/icons/header-logo.svg" alt="header logo" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
 
@@ -64,11 +67,13 @@ const Header = () => {
                            News
                         </Link>
                        
-                        <Nav.Link href="#"><button className='btn-rounded header-btn'>Get Started</button></Nav.Link>
+                        <button className='btn-rounded header-btn ms-3' onClick={() => setShowModal(true)}>Get Started</button>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+        <FormModal show={showModal} setShow={setShowModal} />
+        </>
     )
 }
 

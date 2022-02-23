@@ -1,14 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-scroll';
+import FormModal from './FormModal';
 
 const Footer = () => {
+  const [showModal, setShowModal] = useState(false);
   return (
-    <footer>
+    <footer className='footer-section'>
       <Container>
         <Row>
           <Col lg={3} md={3} sm={12} xs={12} className='mt-5'>
-            <div><img src={'/assets/icons/footer-logo.png'} alt="footer-logo" /></div>
+            <div>
+              <img src={'/assets/icons/footer-logo.png'} alt="footer-logo" />
+              </div>
           </Col>
           <Col lg={3} md={3} sm={6} xs={6} className='mt-5'>
             <h3 className='small-heading'>
@@ -89,10 +93,12 @@ const Footer = () => {
             <h3 className='small-heading mb-5'>
               We'll drop the best new bounties in your inbox every week.
             </h3>
-            <button className='btn-rounded header-btn'>Get Started</button>
+            <button className='btn-rounded header-btn' onClick={() => setShowModal(true)}>Get Started</button>
           </Col>
         </Row>
       </Container>
+
+      <FormModal show={showModal} setShow={setShowModal} />
     </footer>
   )
 }

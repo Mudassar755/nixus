@@ -46,7 +46,7 @@ const NewLife = () => {
                         <Carousel className='features-carousel' interval={null}>
                             <Carousel.Item>
                                 <Col>
-                                    <div className='bg-dark-grey p-4'>
+                                    <div className='bg-dark-grey p-4 pt-5'>
                                         <h3 className='small-heading gradient-text'>
                                             01. Colourization
                                         </h3>
@@ -59,7 +59,7 @@ const NewLife = () => {
                             </Carousel.Item>
                             <Carousel.Item>
                                 <Col>
-                                    <div className='bg-dark-grey p-4'>
+                                    <div className='bg-dark-grey p-4 pt-5'>
                                         <h3 className='small-heading gradient-text'>02. Scene Reconstruction</h3>
                                         <p className='primary-text'>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra euismod lectus interdum in varius amet.

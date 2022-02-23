@@ -13,7 +13,7 @@ const NoMoreTyping = () => {
         </div>
         <Row className='desktop-row'>
           <Col lg={4} md={4} sm={4}>
-            <div className="bg-dark-grey box-size p-4">
+            <div className="bg-dark-grey box-size p-4 h-100">
               <h3 className="small-heading gradient-text">
                 01. Machine Translation
               </h3>
@@ -30,7 +30,7 @@ const NoMoreTyping = () => {
           </Col>
 
           <Col lg={4} md={4} sm={4}>
-            <div className="bg-dark-grey box-size p-4">
+            <div className="bg-dark-grey box-size p-4 h-100">
               <h3 className="small-heading gradient-text">
                 02. Natural language generation
               </h3>
@@ -46,7 +46,7 @@ const NoMoreTyping = () => {
             </div>
           </Col>
           <Col lg={4} md={4} sm={4}>
-            <div className="bg-dark-grey box-size p-4">
+            <div className="bg-dark-grey box-size p-4 h-100">
               <h3 className="small-heading gradient-text">
                 03. Text Summeration
               </h3>
@@ -67,7 +67,7 @@ const NoMoreTyping = () => {
           <Carousel className='features-carousel' interval={null}>
             <Carousel.Item>
               <Col>
-                <div className="bg-dark-grey box-size p-4">
+                <div className="bg-dark-grey box-size p-4 pt-5">
                   <h3 className="small-heading gradient-text">
                     01. Machine Translation
                   </h3>
@@ -85,7 +85,7 @@ const NoMoreTyping = () => {
             </Carousel.Item>
             <Carousel.Item>
               <Col>
-              <div className="bg-dark-grey box-size p-4">
+              <div className="bg-dark-grey box-size p-4 pt-5">
               <h3 className="small-heading gradient-text">
                 02. Natural language generation
               </h3>
@@ -103,7 +103,7 @@ const NoMoreTyping = () => {
             </Carousel.Item>
             <Carousel.Item>
               <Col>
-              <div className="bg-dark-grey box-size p-4">
+              <div className="bg-dark-grey box-size p-4 pt-5">
               <h3 className="small-heading gradient-text">
                 03. Text Summeration
               </h3>

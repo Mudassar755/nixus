@@ -47,7 +47,7 @@ const Reading = () => {
             <Carousel className='features-carousel' interval={null}>
               <Carousel.Item>
                 <Col>
-                  <div className="bg-dark-grey p-4 h-100">
+                  <div className="bg-dark-grey p-4 pt-5 h-100">
                     <h3 className="small-heading gradient-text">
                       01. text mining
                     </h3>
@@ -61,7 +61,7 @@ const Reading = () => {
               </Carousel.Item>
               <Carousel.Item>
                 <Col>
-                  <div className="bg-dark-grey p-4">
+                  <div className="bg-dark-grey p-4 pt-5">
                     <h3 className="small-heading gradient-text">
                       02. optical character recognition
                     </h3>

@@ -61,7 +61,7 @@ const GitRight = () => {
                         <Carousel className='features-carousel' interval={null}>
                             <Carousel.Item>
                             <Col>
-                            <div className='bg-dark-grey p-4'>
+                            <div className='bg-dark-grey p-4 pt-5'>
                                 <h3 className='small-heading gradient-text'>01. Face detaction & recognition</h3>
                                 <p className='primary-text'>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra euismod lectus interdum in varius amet.
@@ -72,7 +72,7 @@ const GitRight = () => {
                             </Carousel.Item>
                             <Carousel.Item>
                             <Col>
-                            <div className='bg-dark-grey p-4'>
+                            <div className='bg-dark-grey p-4 pt-5'>
                                 <h3 className='small-heading gradient-text'>02. object tracking</h3>
                                 <p className='primary-text'>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra euismod lectus interdum in varius amet.

@@ -44,13 +44,13 @@ const TreasureHunter = () => {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra euismod <br />lectus interdum in varius amet.
                             </p>
                             <div className='img-classification'>
-                                <div className='img-box me-md-3 me-5'>
+                                <div className='img-box me-md-3 me-lg-5'>
                                     <img className='w-100' src={'/assets/images/dog.png'} alt="" />
                                     <span>Dog</span>
                                 </div>
-                                <div className='img-box ms-md-3 ms-5'>
-                                    <img className='w-100' src={'/assets/images/dog.png'} alt="" />
-                                    <span>Dog</span>
+                                <div className='img-box ms-md-3 ms-lg-5'>
+                                    <img className='w-100' src={'/assets/images/cat.png'} alt="" />
+                                    <span>Cat</span>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ const TreasureHunter = () => {
                     <Carousel className='features-carousel' interval={null}>
                         <Carousel.Item>
                             <Col>
-                                <div className='bg-dark-grey p-4'>
+                                <div className='bg-dark-grey p-4 pt-5'>
                                     <h3 className='small-heading gradient-text'>01. Object detection</h3>
                                     <p className='primary-text'>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra euismod lectus interdum in varius amet.
@@ -72,7 +72,7 @@ const TreasureHunter = () => {
                         </Carousel.Item>
                         <Carousel.Item>
                             <Col>
-                                <div className='bg-dark-grey p-4'>
+                                <div className='bg-dark-grey p-4 pt-5'>
                                     <h3 className='small-heading gradient-text'>01. Object detection</h3>
                                     <p className='primary-text'>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra euismod lectus interdum in varius amet.
@@ -83,7 +83,7 @@ const TreasureHunter = () => {
                         </Carousel.Item>
                         <Carousel.Item>
                             <Col>
-                                <div className='bg-dark-grey p-4'>
+                                <div className='bg-dark-grey p-4 pt-5'>
                                     <h3 className='small-heading gradient-text'>01. Object detection</h3>
                                     <p className='primary-text'>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra euismod lectus interdum in varius amet.
@@ -94,7 +94,7 @@ const TreasureHunter = () => {
                         </Carousel.Item>
                         <Carousel.Item>
                             <Col>
-                                <div className='bg-dark-grey p-4'>
+                                <div className='bg-dark-grey p-4 pt-5'>
                                     <h3 className='small-heading gradient-text'>01. Object detection</h3>
                                     <p className='primary-text'>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra euismod lectus interdum in varius amet.

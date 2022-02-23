@@ -1,8 +1,10 @@
 import React,{useState, useEffect} from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import FormModal from "./FormModal";
 
 const HowItWorks = () => {
   let [isMobile, setIsMobile] = useState(false);
+  const [showModal, setShowModal] = useState(false);
   const setImageSize = () => {
     if (window.innerWidth < 768) {
       setIsMobile(true);
@@ -163,7 +165,7 @@ const HowItWorks = () => {
           </div>
         </Row>
         <div className="text-center">
-        <button className="btn-rounded py-2 mt-5 px-5 py-2">Get Started</button>
+        <button className="btn-rounded py-2 mt-5 px-5 py-2" onClick={() => setShowModal(true)}>Get Started</button>
         </div>
       </Container>
       <section className="work-section" id="why-choose-us">
@@ -178,7 +180,7 @@ const HowItWorks = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel mauris gravida tortor, ac eget eget non. 
               Nibh vulputate aliquam non vel nec. Nulla enim id pellentesque hendrerit. Faucibus arcu blandit habitasse nunc.
               </p>
-              <button className="btn-rounded-2 px-5 py-2">Get Started</button>
+              <button className="btn-rounded-2 px-5 py-2 mb-4" onClick={() => setShowModal(true)}>Get Started</button>
             </div>
           </Col>
           <Col lg={4} md={12} sm={12} className="p-0">
@@ -191,6 +193,8 @@ const HowItWorks = () => {
         </Row>
         </Container>
       </section>
+
+      <FormModal show={showModal} setShow={setShowModal} />
     </section>
   );
 };
