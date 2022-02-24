@@ -3,7 +3,7 @@ import { Container, Row, Col, Carousel } from 'react-bootstrap'
 
 const NoMoreTyping = () => {
   return (
-    <section className='new-section'>
+    <section className='new-section' id="no-more-typing">
       <Container>
         <div className='d-flex align-items-center mb-4'>
           <span className="heading-icon">

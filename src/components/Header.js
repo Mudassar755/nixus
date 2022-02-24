@@ -18,7 +18,7 @@ const Header = () => {
                         <Link
                             activeClass="active"
                             to={'ai-fields'}
-                            href={'ai-fields'}
+                            href={''}
                             spy={true}
                             smooth={true}
                             offset={-70}
@@ -31,7 +31,7 @@ const Header = () => {
                         <Link
                             activeClass="active"
                             to={'how-it-works'}
-                            href={'how-it-works'}
+                            href={''}
                             spy={true}
                             smooth={true}
                             offset={-70}
@@ -44,7 +44,7 @@ const Header = () => {
                         <Link
                             activeClass="active"
                             to={'why-choose-us'}
-                            href={'why-choose-us'}
+                            href={''}
                             spy={true}
                             smooth={true}
                             offset={-70}
@@ -57,7 +57,7 @@ const Header = () => {
                         <Link
                             activeClass="active"
                             to={'news'}
-                            href={'news'}
+                            href={''}
                             spy={true}
                             smooth={true}
                             offset={-70}

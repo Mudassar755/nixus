@@ -3,7 +3,7 @@ import { Row, Col, Container, Carousel } from "react-bootstrap";
 
 const CatchYa = () => {
   return (
-    <section className="new-section">
+    <section className="new-section" id="catch-ya">
       <Container>
 
         {/* <Row>

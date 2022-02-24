@@ -1,9 +1,9 @@
 import React from 'react'
 import { Container, Row, Col, Carousel } from 'react-bootstrap'
 
-const GitRight = () => {
+const GetItRight = () => {
     return (
-        <section className='new-section'>
+        <section className='new-section' id="get-it-right">
             <Container >
                 <div>
                     {/* <div>
@@ -89,4 +89,4 @@ const GitRight = () => {
     )
 }
 
-export default GitRight
+export default GetItRight

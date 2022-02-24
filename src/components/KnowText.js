@@ -3,7 +3,7 @@ import { Container, Row, Col, Carousel } from 'react-bootstrap'
 
 const KnowText = () => {
   return (
-    <section className='new-section text-section'>
+    <section className='new-section text-section' id="know-your-text">
       <Container>
         <div className='d-flex align-items-center mb-4'>
           <span className="heading-icon">

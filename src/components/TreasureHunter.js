@@ -3,7 +3,7 @@ import { Container, Row, Col, Carousel } from 'react-bootstrap'
 
 const TreasureHunter = () => {
     return (
-        <section className='my-5'>
+        <section className='my-5' id="treasure-hunter">
             <Container>
                 <div className='d-flex mb-4 align-items-center'>
                     <span className='heading-icon'><img src="/assets/icons/Icosahedron.png" alt='' /></span>

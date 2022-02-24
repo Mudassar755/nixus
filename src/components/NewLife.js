@@ -3,7 +3,7 @@ import { Container, Row, Col, Carousel } from 'react-bootstrap'
 
 const NewLife = () => {
     return (
-        <section className='new-section'>
+        <section className='new-section' id="new-life">
             <Container>
                 <div>
                     <div className='d-flex align-items-center mb-4'>

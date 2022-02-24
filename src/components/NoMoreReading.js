@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 
-const Reading = () => {
+const NoMoreReading = () => {
   return (
-    <section className="new-section">
+    <section className="new-section" id="no-more-reading">
       <Container>
         <div>
           <div className="d-flex align-items-center mb-4">
@@ -86,4 +86,4 @@ const Reading = () => {
   );
 };
 
-export default Reading;
+export default NoMoreReading;

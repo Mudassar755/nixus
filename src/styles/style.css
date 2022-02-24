@@ -28,6 +28,7 @@ a{
 }
 .app-bar {
   background-color: #070014 !important;
+  padding: 2rem 0 !important;
 }
 .nav-link {
   color: rgba(255, 255, 255, 0.8) !important;
@@ -251,11 +252,12 @@ a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 20px 0;
   background: #070014;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 12px;
   position: relative;
+  cursor: pointer;
 }
 .ai-field:hover {
   /* -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 13px rgba(0,0,0,0);  */

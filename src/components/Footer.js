@@ -23,7 +23,7 @@ const Footer = () => {
               <Link
                 activeClass="active"
                 to={'ai-fields'}
-                href={'ai-fields'}
+                href={''}
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -38,7 +38,7 @@ const Footer = () => {
               <Link
                 activeClass="active"
                 to={'how-it-works'}
-                href={'how-it-works'}
+                href={''}
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -51,7 +51,7 @@ const Footer = () => {
               <Link
                 activeClass="active"
                 to={'why-choose-us'}
-                href={'why-choose-us'}
+                href={''}
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -64,7 +64,7 @@ const Footer = () => {
               <Link
                 activeClass="active"
                 to={'news'}
-                href={'news'}
+                href={''}
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -86,13 +86,13 @@ const Footer = () => {
           <Col lg={2} md={2} sm={6} xs={6} className='mt-5'>
             <h3 className='small-heading'>Contact Us</h3>
             <div className='d-flex flex-column footer-links'>
-              <a href="/email" className='primary-text' target="_blank">
+              <a href="/" className='primary-text' target="_blank">
                 Email
               </a>
-              <a href="/twitter" className='primary-text' target="_blank">
+              <a href="/" className='primary-text' target="_blank">
                 Twitter
               </a>
-              <a href="/discord" className='primary-text' target="_blank">
+              <a href="/" className='primary-text' target="_blank">
                 Discord
               </a>
             </div>

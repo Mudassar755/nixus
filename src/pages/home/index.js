@@ -2,8 +2,8 @@ import React from 'react'
 import HeroSection from '../../components/HeroSection';
 import TreasureHunter from '../../components/TreasureHunter';
 import NewLife from '../../components/NewLife';
-import GitRight from '../../components/GitRight';
-import Reading from '../../components/Reading';
+import GetItRight from '../../components/GetItRight';
+import NoMoreReading from '../../components/NoMoreReading';
 import CatchYa from '../../components/CatchYa';
 import NoMoreTyping from '../../components/NoMoreTyping';
 import KnowText from '../../components/KnowText';
@@ -16,8 +16,8 @@ const LandingPage = () => {
             <HeroSection />
             <TreasureHunter />
             <NewLife/>
-            <GitRight/>
-            <Reading/>
+            <GetItRight/>
+            <NoMoreReading/>
             <CatchYa/>
             <NoMoreTyping/>
             <KnowText/>
