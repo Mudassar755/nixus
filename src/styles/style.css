@@ -157,8 +157,7 @@ a{
   position: absolute;
   border-radius: 99px;
 }
-
-.header-btn:before {
+.header-btn:before, .modal-close-btn::before {
   top: 0;
   left: 0;
   bottom: 0;
@@ -210,7 +209,7 @@ a{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#503b9a', endColorstr='#269cc1',GradientType=1 );
 }
 
-.header-btn:after {
+.header-btn:after, .modal-close-btn::after {
   top: 2px;
   bottom: 2px;
   left: 2px;
@@ -477,9 +476,15 @@ a{
   background: transparent;
   right: -51px;
   padding: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.6);
+  border: 0px;
   box-sizing: border-box;
-  border-radius: 2px;
+  /* border-radius: 2px; */
+}
+.modal-close-btn::before,
+.modal-close-btn::after {
+  content: " ";
+  position: absolute;
+  border-radius: 4px;
 }
 .input-field {
   flex-direction: row;
@@ -500,10 +505,10 @@ a{
   color: #ffffff !important;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
-.selection-val:hover{
+/* .selection-val:hover{
   background: red !important;
  
-}
+} */
 .input-field:focus,
 .input-field:active {
   outline: none !important;
