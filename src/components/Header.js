@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Navbar, Nav, Container, } from 'react-bootstrap';
 import { Link } from 'react-scroll';
+import {NavLink as ReactLink} from 'react-router-dom'
 import FormModal from './FormModal';
 
 const Header = () => {
@@ -66,6 +67,13 @@ const Header = () => {
                         >
                            News
                         </Link>
+                        <ReactLink
+                            to={'/blogs'}
+                            className="nav-link"
+                        // key={i}
+                        >
+                           Blogs
+                        </ReactLink>
                        
                         <button className='btn-rounded header-btn ms-3' onClick={() => setShowModal(true)}>Get Started</button>
                     </Nav>

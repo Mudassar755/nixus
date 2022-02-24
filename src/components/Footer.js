@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-scroll';
+import { NavLink as ReactLink } from 'react-router-dom'
 import FormModal from './FormModal';
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
           <Col lg={3} md={3} sm={12} xs={12} className='mt-5'>
             <div>
               <img src={'/assets/icons/footer-logo.png'} alt="footer-logo" />
-              </div>
+            </div>
           </Col>
           <Col lg={3} md={3} sm={6} xs={6} className='mt-5'>
             <h3 className='small-heading'>
@@ -73,6 +74,13 @@ const Footer = () => {
               >
                 News
               </Link>
+              <ReactLink
+                to={'/blogs'}
+                className="primary-text"
+              // key={i}
+              >
+                Blogs
+              </ReactLink>
             </div>
           </Col>
           <Col lg={2} md={2} sm={6} xs={6} className='mt-5'>
