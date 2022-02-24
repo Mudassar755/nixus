@@ -35,7 +35,7 @@ a{
 .main-heading {
   font-style: normal;
   font-weight: normal;
-  font-size: 60px;
+  font-size: 74px;
   line-height: 88px;
   letter-spacing: 0.02em;
 
@@ -575,6 +575,9 @@ a{
   display: none !important;
 }
 @media screen and (max-width: 768px) {
+  .main-heading{
+    font-size: 60px;
+  }
   .how-it-work .text-container {
     height: auto;
   }

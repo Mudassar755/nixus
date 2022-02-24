@@ -8,7 +8,7 @@ const HeroSection = () => {
         <section className='hero-section'>
             <Container>
                 <Row className='hero-section-row'>
-                    <Col lg={6} md={6} sm={12}>
+                    <Col lg={7} md={6} sm={12}>
                         <div className='hero-heading-box'>
                             <h1 className='hero-heading main-heading'>The new standard in <br />
                                 <span className='gradient-text'>Artifical intelligent.</span>
@@ -16,7 +16,7 @@ const HeroSection = () => {
 
                         </div>
                     </Col>
-                    <Col lg={6} md={6} sm={12}>
+                    <Col lg={5} md={6} sm={12}>
                         <div className='hero-text primary-text'>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra euismod lectus interdum in
                                 varius amet interdum. Nullam tellus enim. dolor sit amet, consecte.</p>
