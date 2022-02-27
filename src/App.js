@@ -18,8 +18,8 @@ function App() {
         <Route exact path="/blogs" element={<Blogs />} />
         <Route exact path="/blogs/:slug" element={<BlogPost />} />
       </Routes>
-      <Footer />
       </Container>
+      <Footer />
     </Router>
   );
 }

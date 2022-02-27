@@ -144,7 +144,105 @@ const HeroSection = () => {
                 <Row className='mobile-row'>
 
                     <div className='d-flex mob-ai-fields'>
+                        <Link
+                            activeClass="active"
+                            to={'get-it-right'}
+                            // href={'get-it-right'}
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >
                         <div className='ai-field'>
+                                <img src="/assets/icons/field1.png" alt='' />
+                                <span className='small-text'>Get It Right</span>
+                            </div>
+                        </Link>
+                    <Link
+                            activeClass="active"
+                            to={'no-more-reading'}
+                            // href={'get-it-right'}
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >
+                            <div className='ai-field'>
+                            <img src="/assets/icons/field2.png" alt='' />
+                            <span className='small-text'>No More Reading</span>
+                        </div>
+                        </Link>
+                    <Link
+                            activeClass="active"
+                            to={'treasure-hunter'}
+                            // href={'get-it-right'}
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >
+                        <div className='ai-field'>
+                            <img src="/assets/icons/field3.png" alt='' />
+                            <span className='small-text'>Treasure Hunter</span>
+                        </div>
+                        </Link>
+                    <Link
+                            activeClass="active"
+                            to={'catch-ya'}
+                            // href={'get-it-right'}
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >
+                        <div className='ai-field'>
+                            <img src="/assets/icons/field4.png" alt='' />
+                            <span className='small-text'>Catch Ya</span>
+                        </div>
+                        </Link>
+                    <Link
+                            activeClass="active"
+                            to={'new-life'}
+                            // href={'get-it-right'}
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >
+                        <div className='ai-field'>
+                            <img src="/assets/icons/field5.png" alt='' />
+                            <span className='small-text'>Giving A New Life</span>
+                        </div>
+                        </Link>
+                    <Link
+                            activeClass="active"
+                            to={'no-more-typing'}
+                            // href={'get-it-right'}
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >
+                        <div className='ai-field'>
+                            <img src="/assets/icons/field-shape.png" alt='' />
+                            <span className='small-text'>No More Typing</span>
+                        </div>
+                        </Link>
+                    <Link
+                            activeClass="active"
+                            to={'know-your-text'}
+                            // href={'get-it-right'}
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >
+                        <div className='ai-field'>
+                            <img src="/assets/icons/field7.png" alt='' />
+                            <span className='small-text'>Know Your Text</span>
+                        </div>
+                        </Link>
+                        {/* <div className='ai-field'>
                             <img src="/assets/icons/field7.png" alt='' />
                             <span className='small-text'>Get It Right</span>
                         </div>
@@ -171,7 +269,7 @@ const HeroSection = () => {
                         <div className='ai-field'>
                             <img src="/assets/icons/field7.png" alt='' />
                             <span className='small-text'>Get It Right</span>
-                        </div>
+                        </div> */}
                     </div>
                 </Row>
             </Container>

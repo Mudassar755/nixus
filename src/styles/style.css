@@ -425,6 +425,7 @@ a{
 }
 .footer-section {
   background: #1a1a25;
+  padding-bottom: 3rem;
 }
 .footer-links a {
   text-decoration: none !important;
@@ -439,6 +440,7 @@ a{
   display: flex;
   overflow-x: scroll;
   min-height: 200px;
+  align-items: center;
 }
 .mob-fields {
   display: flex;
@@ -644,9 +646,14 @@ a{
 
     border-radius: 10px;
   }
-  .ai-field {
+  .mob-ai-fields a{
     flex: 0 0 160px;
+    margin-right: 10px;
+
   }
+  /* .ai-field {
+    flex: 0 0 160px;
+  } */
   .blog-main-heading {
     font-weight: normal;
     font-size: 42px;
@@ -656,9 +663,12 @@ a{
     color: #ffffff;
     margin: 7rem 0;
   }
+  .form-modal .modal-body{
+    padding-top: 3rem !important;
+  }
   .modal-close-btn{
-    top: -50px;
+    top: 5px;
     right: 10px;
- 
+ z-index: 1001;
   }
 }
