@@ -21,7 +21,7 @@ const HeroSection = () => {
                         <div className='hero-text primary-text'>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra euismod lectus interdum in
                                 varius amet interdum. Nullam tellus enim. dolor sit amet, consecte.</p>
-                            <Button variant='light' className='btn-rounded hero-btn px-5 py-2' onClick={() => setShowModal(true)}>Get Started</Button>
+                            <Button variant='light' className='btn-rounded hero-btn simple-btn px-5 py-2' onClick={() => setShowModal(true)}>Get Started</Button>
                         </div>
                     </Col>
                 </Row>

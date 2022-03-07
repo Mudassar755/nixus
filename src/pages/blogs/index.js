@@ -192,7 +192,7 @@ const Blogs = () => {
           </Col>
           <Col lg={4} md={12} sm={12} className="p-0">
             <img
-              className="w-100"
+              className="w-100 h-100"
               src={ isMobile ? "/assets/images/choose-us.png" : "/assets/images/choose-us-desktop.png"}
               alt=""
             />

@@ -54,7 +54,7 @@ const Header = () => {
                         >
                             Why Choose Us
                         </Link>
-                        <Link
+                        {/* <Link
                             activeClass="active"
                             to={'news'}
                             href={''}
@@ -63,16 +63,20 @@ const Header = () => {
                             offset={-70}
                             duration={500}
                             className="nav-link"
-                        // key={i}
                         >
                            News
-                        </Link>
+                        </Link> */}
                         <ReactLink
                             to={'/blogs'}
                             className="nav-link"
-                        // key={i}
                         >
                            Blogs
+                        </ReactLink>
+                        <ReactLink
+                            to={'/usecases'}
+                            className="nav-link"
+                        >
+                           Use Cases
                         </ReactLink>
                        
                         <button className='btn-rounded header-btn ms-3' onClick={() => setShowModal(true)}>Get Started</button>

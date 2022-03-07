@@ -61,7 +61,7 @@ const Footer = () => {
               >
                 Why Choose Us
               </Link>
-              <Link
+              {/* <Link
                 activeClass="active"
                 to={'news'}
                 href={''}
@@ -73,7 +73,14 @@ const Footer = () => {
               // key={i}
               >
                 News
-              </Link>
+              </Link> */}
+              <ReactLink
+                to={'/usecases'}
+                className="primary-text"
+              // key={i}
+              >
+                Use Cases
+              </ReactLink>
               <ReactLink
                 to={'/blogs'}
                 className="primary-text"

@@ -5,7 +5,12 @@ const BlogPost = () => {
     return (
         <section>
             <Container>
-                <h1 className='blog-main-heading'>Faster Semantic Segmentation with Machine Learning-Assisted Workflows</h1>
+                <Row className='justify-content-center my-5'>
+                    <Col lg={7} md={10} sm={12}>
+                        <span className='primary-text gradient-text text-bold'>Posted on Octorber 6th 2021</span>
+                        <h1 className='sub-heading'>Faster Semantic Segmentation with Machine Learning-Assisted Workflows</h1>
+                    </Col>
+                </Row>
                 <div>
                     <img src={'/assets/images/blog-img.png'} alt='blog-post' className='w-100' />
                 </div>
