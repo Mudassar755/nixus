@@ -19,8 +19,9 @@ const HeroSection = () => {
                     </Col>
                     <Col lg={5} md={6} sm={12}>
                         <div className='hero-text primary-text'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra euismod lectus interdum in
-                                varius amet interdum. Nullam tellus enim. dolor sit amet, consecte.</p>
+                            <p>Our company is dedicated to providing AI-based solutions to our clients. 
+                                We believe that artificial intelligence is the future of the world, 
+                                and we are committed to helping our clients take advantage of this revolutionary technology.</p>
                             <Button variant='light' className='btn-rounded hero-btn simple-btn px-5 py-2' onClick={() => setShowModal(true)}>Get Started</Button>
                         </div>
                     </Col>

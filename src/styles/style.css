@@ -137,6 +137,9 @@ a {
   background: #1a1a25;
   border-radius: 12px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .gradient-text {
   background: -webkit-linear-gradient(

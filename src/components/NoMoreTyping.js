@@ -11,19 +11,25 @@ const NoMoreTyping = () => {
           </span>
           <h2 className="sub-heading">No More Typing</h2>
         </div>
+        <p className='primary-text heading-description w-75'>
+          Automate your daily typing tasks. Automatically get your text paraphrased,
+          summarised or written from the base without worrying about taking out time to type long texts.
+        </p>
         <Row className='desktop-row'>
           <Col lg={4} md={4} sm={4}>
             <div className="bg-dark-grey box-size p-4 h-100">
-              <h3 className="small-heading gradient-text">
-                01. Machine Translation
-              </h3>
-              <p className="primary-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Viverra euismod lectus interdum in varius amet.
-              </p>
+              <div>
+                <h3 className="small-heading gradient-text">
+                  01. Machine Translation
+                </h3>
+                <p className="primary-text">
+                  NIXUS provides machine translation services with its Machine Learning techniques.
+                  You can simply switch from one language to another without hiring any professional translators
+                </p>
+              </div>
               <img
                 className="w-100"
-                src={"/assets/images/Group 32.png"}
+                src={"/assets/images/machine-translation.png"}
                 alt="object-detection"
               />
             </div>
@@ -31,32 +37,39 @@ const NoMoreTyping = () => {
 
           <Col lg={4} md={4} sm={4}>
             <div className="bg-dark-grey box-size p-4 h-100">
-              <h3 className="small-heading gradient-text">
-                02. Natural language generation
-              </h3>
-              <p className="primary-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Viverra euismod lectus interdum in varius amet.
-              </p>
+              <div>
+                <h3 className="small-heading gradient-text">
+                  02. Natural language generation
+                </h3>
+                <p className="primary-text">
+                  Generating blogs, marketing headlines or any other content without hiring a professional writer or
+                  typing content. NIXUS provides AI programmed codes so you can generate your desired content
+                  without worrying about the hassle of typing.
+                </p>
+              </div>
               <img
                 className="w-100"
-                src={"/assets/images/Frame 2889.png"}
+                src={"/assets/images/natural-language.png"}
                 alt="object-detection"
               />
             </div>
           </Col>
           <Col lg={4} md={4} sm={4}>
+
             <div className="bg-dark-grey box-size p-4 h-100">
-              <h3 className="small-heading gradient-text">
-                03. Text Summeration
-              </h3>
-              <p className="primary-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Viverra euismod lectus interdum in varius amet.
-              </p>
+              <div>
+                <h3 className="small-heading gradient-text">
+                  03. Text Summeration
+                </h3>
+                <p className="primary-text">
+                  Summarise books and lengthy research articles to extract precise and useful information,
+                  eliminating irrelevant and undesired information. Generate summary of multiple types and
+                  length according to your business use case.
+                </p>
+              </div>
               <img
                 className="w-100"
-                src={"/assets/images/Group 23.png"}
+                src={"/assets/images/text-summarization.png"}
                 alt="object-detection"
               />
             </div>
@@ -68,16 +81,18 @@ const NoMoreTyping = () => {
             <Carousel.Item>
               <Col>
                 <div className="bg-dark-grey box-size p-4 pt-5">
-                  <h3 className="small-heading gradient-text">
-                    01. Machine Translation
-                  </h3>
-                  <p className="primary-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Viverra euismod lectus interdum in varius amet.
-                  </p>
+                  <div>
+                    <h3 className="small-heading gradient-text">
+                      01. Machine Translation
+                    </h3>
+                    <p className="primary-text">
+                      NIXUS provides machine translation services with its Machine Learning techniques.
+                      You can simply switch from one language to another without hiring any professional translators
+                    </p>
+                  </div>
                   <img
                     className="w-100"
-                    src={"/assets/images/Group 32.png"}
+                    src={"/assets/images/machine-translation.png"}
                     alt="object-detection"
                   />
                 </div>
@@ -85,38 +100,45 @@ const NoMoreTyping = () => {
             </Carousel.Item>
             <Carousel.Item>
               <Col>
-              <div className="bg-dark-grey box-size p-4 pt-5">
-              <h3 className="small-heading gradient-text">
-                02. Natural language generation
-              </h3>
-              <p className="primary-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Viverra euismod lectus interdum in varius amet.
-              </p>
-              <img
-                className="w-100"
-                src={"/assets/images/Frame 2889.png"}
-                alt="object-detection"
-              />
-            </div>
+                <div className="bg-dark-grey box-size p-4 pt-5">
+                  <div>
+                    <h3 className="small-heading gradient-text">
+                      02. Natural language generation
+                    </h3>
+                    <p className="primary-text">
+                      Generating blogs, marketing headlines or any other content without hiring a professional writer or
+                      typing content. NIXUS provides AI programmed codes so you can generate your desired content
+                      without worrying about the hassle of typing.
+                    </p>
+                  </div>
+                  <img
+                    className="w-100"
+                    src={"/assets/images/natural-language.png"}
+                    alt="object-detection"
+                  />
+                </div>
               </Col>
             </Carousel.Item>
             <Carousel.Item>
               <Col>
-              <div className="bg-dark-grey box-size p-4 pt-5">
-              <h3 className="small-heading gradient-text">
-                03. Text Summeration
-              </h3>
-              <p className="primary-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Viverra euismod lectus interdum in varius amet.
-              </p>
-              <img
-                className="w-100"
-                src={"/assets/images/Group 23.png"}
-                alt="object-detection"
-              />
-            </div>
+                <div className="bg-dark-grey box-size p-4 pt-5">
+                  <div>
+                    <h3 className="small-heading gradient-text">
+                      03. Text Summeration
+                    </h3>
+                    <p className="primary-text">
+                      Summarise books and lengthy research articles to extract precise and useful information,
+                      eliminating irrelevant and undesired information. Generate summary of multiple types and
+                      length according to your business use case.
+                    </p>
+
+                  </div>
+                  <img
+                    className="w-100"
+                    src={"/assets/images/text-summarization.png"}
+                    alt="object-detection"
+                  />
+                </div>
               </Col>
             </Carousel.Item>
           </Carousel>
